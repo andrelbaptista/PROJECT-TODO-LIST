@@ -18,6 +18,10 @@
   --color6: #395169;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   font-family: var(--font1);
   background-image: url("../img/image.png");
@@ -63,7 +67,7 @@ select {
 
 #todo-container {
   width: 450px;
-  margin:20vh auto;
+  margin:3rem auto;
   background-color: var(--color1);
   padding: 1.5rem;
   border-radius: 15px;
@@ -75,13 +79,13 @@ select {
   border-bottom: 1px solid var(--color4);
 }
 
-#add,
+.add,
 #edit {
   padding: 1rem;
   border-bottom: 1px solid var(--color4);
 }
 
-#add p,
+.add p,
 #edit p {
   margin-bottom: .5rem;
   font-weight: bold;
